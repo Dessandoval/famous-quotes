@@ -29,6 +29,7 @@ public class QuotesApp {
             e.printStackTrace();
         }
 
+        System.out.println("Goodbye!");
         scanner.close();
     }
 }
