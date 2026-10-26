@@ -18,10 +18,14 @@ public class QuotesApp {
                 "Life is what happens when you're busy making other plans.",
                 "Stay hungry, stay foolish."
         };
-        System.out.print("Select a quote from (1-10): ");
-        int i = scanner.nextInt();
-        i--;
-        System.out.println(famousQuotes[i]);
+        try {
+            System.out.print("Select a quote from (1-10): ");
+            int i = scanner.nextInt();
+            i--;
+            System.out.println(famousQuotes[i]);
+        } catch (Exception e) {
+            e.printStackTrace();;
+        }
 
         scanner.close();
     }
