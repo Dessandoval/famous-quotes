@@ -26,7 +26,7 @@ public class QuotesApp {
         } catch (Exception e) {
             System.out.println("Invalid! Please select a quote from (1-10): ");
             // print the details so the error is never hidden from you
-            e.printStackTrace();
+//            e.printStackTrace();
         }
 
         System.out.println("Goodbye!");
